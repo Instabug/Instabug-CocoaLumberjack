@@ -11,4 +11,6 @@
 
 @interface DDInstabugLogger : DDAbstractLogger <DDLogger>
 
++ (instancetype)sharedInstance;
+
 @end

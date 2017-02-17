@@ -11,6 +11,17 @@
 
 @implementation DDInstabugLogger
 
++ (instancetype)sharedInstance {
+    static DDInstabugLogger *sharedInstance;
+    static dispatch_once_t onceToken;
+
+    dispatch_once(&onceToken, ^{
+        sharedInstance = [[DDInstabugLogger alloc] init];
+    });
+    return sharedInstance;
+}
+
+
 - (void)logMessage:(DDLogMessage *)logMessage {
     NSString *logMsg = logMessage->_message;
     if (self->_logFormatter) {

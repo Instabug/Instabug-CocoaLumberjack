@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "Instabug-CocoaLumberjack"
-  s.version      = "1.0.1"
+  s.version      = "1.0.2"
   s.summary      = "A custom CocoaLumberjack logger for Instabug"
   s.homepage     = "http://instabug.com"
   s.license      = {
