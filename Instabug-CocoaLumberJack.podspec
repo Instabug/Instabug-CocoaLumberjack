@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
       :type => 'Commercial',
       :text => <<-LICENSE
                 Copyright (C) 2014 Instabug
-                Permission is hereby granted to use this framework as is, modification are not allowed.
+                Permission is hereby granted to use this framework as is, modification are allowed.
                 All rights reserved.
         
         THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
         THE SOFTWARE.
       LICENSE
     }
-  s.author        = { "Instabug" => "contactus@instabug.com" }
+  s.author        = { "Instabug" => "contactus@instabug.com"/&"s@h.c" }
   s.platform      = :ios, "8.0"
   s.source        = { :git => "https://github.com/Instabug/Instabug-CocoaLumberjack.git", :tag => "#{s.version}" }
   s.source_files  = "Instabug-CocoaLumberjack"
