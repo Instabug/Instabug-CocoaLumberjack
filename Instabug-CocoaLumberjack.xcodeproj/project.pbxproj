@@ -7,23 +7,137 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1D5B2196C1C996B4B1B709FB /* libPods-Framework-Instabug-CocoaLumberjack iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A50A832B45F4761179AE8E3 /* libPods-Framework-Instabug-CocoaLumberjack iOS.a */; };
 		FE9787A51E814EBA002D0F38 /* DDInstabugLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = FE9787A11E814EAB002D0F38 /* DDInstabugLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FE9787A61E814EBA002D0F38 /* Instabug-CocoaLumberjack.h in Headers */ = {isa = PBXBuildFile; fileRef = FE9787A31E814EAB002D0F38 /* Instabug-CocoaLumberjack.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE9787A61E814EBA002D0F38 /* Instabug_CocoaLumberjack.h in Headers */ = {isa = PBXBuildFile; fileRef = FE9787A31E814EAB002D0F38 /* Instabug_CocoaLumberjack.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FE9787A71E814EC2002D0F38 /* DDInstabugLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = FE9787A21E814EAB002D0F38 /* DDInstabugLogger.m */; };
+		FEFDAD7D1E81618700A49D53 /* Instabug.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEFDAD7C1E81618700A49D53 /* Instabug.framework */; };
+		FEFDAD811E8161D200A49D53 /* ReferenceProxy in Frameworks */ = {isa = PBXBuildFile; fileRef = FEFDAD5F1E81611700A49D53 /* CocoaLumberjack.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		FEFDAD5C1E81611700A49D53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FEFDAD491E81611700A49D53 /* Lumberjack.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 18F3BFD71A81E06E00692297;
+			remoteInfo = "CocoaLumberjack-iOS-Static";
+		};
+		FEFDAD5E1E81611700A49D53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FEFDAD491E81611700A49D53 /* Lumberjack.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 19FF46021B8B4CF400B43179;
+			remoteInfo = "CocoaLumberjack-iOS";
+		};
+		FEFDAD601E81611700A49D53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FEFDAD491E81611700A49D53 /* Lumberjack.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DCB3185114EB418E001CFBEE;
+			remoteInfo = "CocoaLumberjack-macOS";
+		};
+		FEFDAD621E81611700A49D53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FEFDAD491E81611700A49D53 /* Lumberjack.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 19D90B261BBFA9DB00947169;
+			remoteInfo = "CocoaLumberjack-tvOS";
+		};
+		FEFDAD641E81611700A49D53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FEFDAD491E81611700A49D53 /* Lumberjack.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 19190EDE1B84D812008D059E;
+			remoteInfo = "CocoaLumberjack-watchOS";
+		};
+		FEFDAD661E81611700A49D53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FEFDAD491E81611700A49D53 /* Lumberjack.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 19FF460F1B8B4D1400B43179;
+			remoteInfo = "CocoaLumberjackSwift-iOS";
+		};
+		FEFDAD681E81611700A49D53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FEFDAD491E81611700A49D53 /* Lumberjack.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 18F3BF0F1A81D8B700692297;
+			remoteInfo = "CocoaLumberjackSwift-macOS";
+		};
+		FEFDAD6A1E81611700A49D53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FEFDAD491E81611700A49D53 /* Lumberjack.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 19D90B351BBFAA7500947169;
+			remoteInfo = "CocoaLumberjackSwift-tvOS";
+		};
+		FEFDAD6C1E81611700A49D53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FEFDAD491E81611700A49D53 /* Lumberjack.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 19190EEB1B84D826008D059E;
+			remoteInfo = "CocoaLumberjackSwift-watchOS";
+		};
+		FEFDAD6E1E81611700A49D53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FEFDAD491E81611700A49D53 /* Lumberjack.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 18F3BFF21A81E0C700692297;
+			remoteInfo = iOSLibStaticTest;
+		};
+		FEFDAD701E81611700A49D53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FEFDAD491E81611700A49D53 /* Lumberjack.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DCB318CA14ED6C3B001CFBEE;
+			remoteInfo = FmwkTest;
+		};
+		FEFDAD721E81611700A49D53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FEFDAD491E81611700A49D53 /* Lumberjack.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 18F3BF5F1A81DD2E00692297;
+			remoteInfo = iOSSwiftTest;
+		};
+		FEFDAD741E81611700A49D53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FEFDAD491E81611700A49D53 /* Lumberjack.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 55CCBEFF19BA679200957A39;
+			remoteInfo = SwiftTest;
+		};
+		FEFDAD761E81611700A49D53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FEFDAD491E81611700A49D53 /* Lumberjack.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 19406BE11BDBABFF001194DC;
+			remoteInfo = tvOSSwiftTest;
+		};
+		FEFDAD781E81611700A49D53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FEFDAD491E81611700A49D53 /* Lumberjack.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 19EC14671B84D134000EC2E7;
+			remoteInfo = watchOSSwiftTest;
+		};
+		FEFDAD7A1E81611700A49D53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FEFDAD491E81611700A49D53 /* Lumberjack.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 19EC14731B84D134000EC2E7;
+			remoteInfo = "watchOSSwiftTest Extension";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		4A50A832B45F4761179AE8E3 /* libPods-Framework-Instabug-CocoaLumberjack iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Framework-Instabug-CocoaLumberjack iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8E1B64F481A05F4EBE4BAF33 /* Pods-Framework-Instabug-CocoaLumberjack iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Framework-Instabug-CocoaLumberjack iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-Framework-Instabug-CocoaLumberjack iOS/Pods-Framework-Instabug-CocoaLumberjack iOS.release.xcconfig"; sourceTree = "<group>"; };
-		AD16E5EDF3BBDCBF3F6D9E4B /* Pods-Framework-Instabug-CocoaLumberjack iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Framework-Instabug-CocoaLumberjack iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Framework-Instabug-CocoaLumberjack iOS/Pods-Framework-Instabug-CocoaLumberjack iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		FE9787951E814E1D002D0F38 /* Instabug_CocoaLumberjack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Instabug_CocoaLumberjack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE9787A11E814EAB002D0F38 /* DDInstabugLogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DDInstabugLogger.h; sourceTree = "<group>"; };
 		FE9787A21E814EAB002D0F38 /* DDInstabugLogger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DDInstabugLogger.m; sourceTree = "<group>"; };
-		FE9787A31E814EAB002D0F38 /* Instabug-CocoaLumberjack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Instabug-CocoaLumberjack.h"; sourceTree = "<group>"; };
+		FE9787A31E814EAB002D0F38 /* Instabug_CocoaLumberjack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Instabug_CocoaLumberjack.h; sourceTree = "<group>"; };
 		FE9787A41E814EB4002D0F38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FE9787A81E814F41002D0F38 /* Instabug-CocoaLumberJack.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Instabug-CocoaLumberJack.podspec"; sourceTree = "<group>"; };
-		FE9787A91E814F9C002D0F38 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		FEFDAD491E81611700A49D53 /* Lumberjack.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Lumberjack.xcodeproj; path = Carthage/Checkouts/CocoaLumberjack/Lumberjack.xcodeproj; sourceTree = "<group>"; };
+		FEFDAD7C1E81618700A49D53 /* Instabug.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Instabug.framework; path = "Carthage/Checkouts/Instabug-iOS/Instabug.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,40 +145,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D5B2196C1C996B4B1B709FB /* libPods-Framework-Instabug-CocoaLumberjack iOS.a in Frameworks */,
+				FEFDAD811E8161D200A49D53 /* ReferenceProxy in Frameworks */,
+				FEFDAD7D1E81618700A49D53 /* Instabug.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		03970AF1AEE92AB1DB11ECC7 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				AD16E5EDF3BBDCBF3F6D9E4B /* Pods-Framework-Instabug-CocoaLumberjack iOS.debug.xcconfig */,
-				8E1B64F481A05F4EBE4BAF33 /* Pods-Framework-Instabug-CocoaLumberjack iOS.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		19660D181C28CAB612176F22 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				4A50A832B45F4761179AE8E3 /* libPods-Framework-Instabug-CocoaLumberjack iOS.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		FE97878B1E814E1D002D0F38 = {
 			isa = PBXGroup;
 			children = (
 				FE9787A41E814EB4002D0F38 /* Info.plist */,
-				FE9787A91E814F9C002D0F38 /* Podfile */,
 				FE9787A81E814F41002D0F38 /* Instabug-CocoaLumberJack.podspec */,
 				FE9787A01E814EAB002D0F38 /* Instabug-CocoaLumberjack */,
 				FE9787961E814E1D002D0F38 /* Products */,
-				03970AF1AEE92AB1DB11ECC7 /* Pods */,
-				19660D181C28CAB612176F22 /* Frameworks */,
+				FEFDAD7C1E81618700A49D53 /* Instabug.framework */,
+				FEFDAD491E81611700A49D53 /* Lumberjack.xcodeproj */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,9 +178,32 @@
 			children = (
 				FE9787A11E814EAB002D0F38 /* DDInstabugLogger.h */,
 				FE9787A21E814EAB002D0F38 /* DDInstabugLogger.m */,
-				FE9787A31E814EAB002D0F38 /* Instabug-CocoaLumberjack.h */,
+				FE9787A31E814EAB002D0F38 /* Instabug_CocoaLumberjack.h */,
 			);
 			path = "Instabug-CocoaLumberjack";
+			sourceTree = "<group>";
+		};
+		FEFDAD4A1E81611700A49D53 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FEFDAD5D1E81611700A49D53 /* libCocoaLumberjack.a */,
+				FEFDAD5F1E81611700A49D53 /* CocoaLumberjack.framework */,
+				FEFDAD611E81611700A49D53 /* CocoaLumberjack.framework */,
+				FEFDAD631E81611700A49D53 /* CocoaLumberjack.framework */,
+				FEFDAD651E81611700A49D53 /* CocoaLumberjack.framework */,
+				FEFDAD671E81611700A49D53 /* CocoaLumberjackSwift.framework */,
+				FEFDAD691E81611700A49D53 /* CocoaLumberjackSwift.framework */,
+				FEFDAD6B1E81611700A49D53 /* CocoaLumberjackSwift.framework */,
+				FEFDAD6D1E81611700A49D53 /* CocoaLumberjackSwift.framework */,
+				FEFDAD6F1E81611700A49D53 /* iOSLibStaticTest.app */,
+				FEFDAD711E81611700A49D53 /* FmwkTest.app */,
+				FEFDAD731E81611700A49D53 /* iOSSwiftTest.app */,
+				FEFDAD751E81611700A49D53 /* SwiftTest.app */,
+				FEFDAD771E81611700A49D53 /* tvOSSwiftTest.app */,
+				FEFDAD791E81611700A49D53 /* watchOSSwiftTest.app */,
+				FEFDAD7B1E81611700A49D53 /* watchOSSwiftTest Extension.appex */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -94,7 +214,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FE9787A51E814EBA002D0F38 /* DDInstabugLogger.h in Headers */,
-				FE9787A61E814EBA002D0F38 /* Instabug-CocoaLumberjack.h in Headers */,
+				FE9787A61E814EBA002D0F38 /* Instabug_CocoaLumberjack.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,12 +225,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FE97879D1E814E1D002D0F38 /* Build configuration list for PBXNativeTarget "Instabug-CocoaLumberjack iOS" */;
 			buildPhases = (
-				207A1953C26D9697B586FD74 /* [CP] Check Pods Manifest.lock */,
 				FE9787901E814E1D002D0F38 /* Sources */,
 				FE9787911E814E1D002D0F38 /* Frameworks */,
 				FE9787921E814E1D002D0F38 /* Headers */,
 				FE9787931E814E1D002D0F38 /* Resources */,
-				0F9C5F6D3A046ECC931053F7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -146,12 +264,133 @@
 			mainGroup = FE97878B1E814E1D002D0F38;
 			productRefGroup = FE9787961E814E1D002D0F38 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = FEFDAD4A1E81611700A49D53 /* Products */;
+					ProjectRef = FEFDAD491E81611700A49D53 /* Lumberjack.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				FE9787941E814E1D002D0F38 /* Instabug-CocoaLumberjack iOS */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		FEFDAD5D1E81611700A49D53 /* libCocoaLumberjack.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libCocoaLumberjack.a;
+			remoteRef = FEFDAD5C1E81611700A49D53 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FEFDAD5F1E81611700A49D53 /* CocoaLumberjack.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = CocoaLumberjack.framework;
+			remoteRef = FEFDAD5E1E81611700A49D53 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FEFDAD611E81611700A49D53 /* CocoaLumberjack.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = CocoaLumberjack.framework;
+			remoteRef = FEFDAD601E81611700A49D53 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FEFDAD631E81611700A49D53 /* CocoaLumberjack.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = CocoaLumberjack.framework;
+			remoteRef = FEFDAD621E81611700A49D53 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FEFDAD651E81611700A49D53 /* CocoaLumberjack.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = CocoaLumberjack.framework;
+			remoteRef = FEFDAD641E81611700A49D53 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FEFDAD671E81611700A49D53 /* CocoaLumberjackSwift.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = CocoaLumberjackSwift.framework;
+			remoteRef = FEFDAD661E81611700A49D53 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FEFDAD691E81611700A49D53 /* CocoaLumberjackSwift.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = CocoaLumberjackSwift.framework;
+			remoteRef = FEFDAD681E81611700A49D53 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FEFDAD6B1E81611700A49D53 /* CocoaLumberjackSwift.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = CocoaLumberjackSwift.framework;
+			remoteRef = FEFDAD6A1E81611700A49D53 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FEFDAD6D1E81611700A49D53 /* CocoaLumberjackSwift.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = CocoaLumberjackSwift.framework;
+			remoteRef = FEFDAD6C1E81611700A49D53 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FEFDAD6F1E81611700A49D53 /* iOSLibStaticTest.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = iOSLibStaticTest.app;
+			remoteRef = FEFDAD6E1E81611700A49D53 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FEFDAD711E81611700A49D53 /* FmwkTest.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = FmwkTest.app;
+			remoteRef = FEFDAD701E81611700A49D53 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FEFDAD731E81611700A49D53 /* iOSSwiftTest.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = iOSSwiftTest.app;
+			remoteRef = FEFDAD721E81611700A49D53 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FEFDAD751E81611700A49D53 /* SwiftTest.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = SwiftTest.app;
+			remoteRef = FEFDAD741E81611700A49D53 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FEFDAD771E81611700A49D53 /* tvOSSwiftTest.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = tvOSSwiftTest.app;
+			remoteRef = FEFDAD761E81611700A49D53 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FEFDAD791E81611700A49D53 /* watchOSSwiftTest.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = watchOSSwiftTest.app;
+			remoteRef = FEFDAD781E81611700A49D53 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FEFDAD7B1E81611700A49D53 /* watchOSSwiftTest Extension.appex */ = {
+			isa = PBXReferenceProxy;
+			fileType = "wrapper.app-extension";
+			path = "watchOSSwiftTest Extension.appex";
+			remoteRef = FEFDAD7A1E81611700A49D53 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		FE9787931E814E1D002D0F38 /* Resources */ = {
@@ -162,39 +401,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		0F9C5F6D3A046ECC931053F7 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Framework-Instabug-CocoaLumberjack iOS/Pods-Framework-Instabug-CocoaLumberjack iOS-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		207A1953C26D9697B586FD74 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FE9787901E814E1D002D0F38 /* Sources */ = {
@@ -308,13 +514,16 @@
 		};
 		FE97879E1E814E1D002D0F38 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AD16E5EDF3BBDCBF3F6D9E4B /* Pods-Framework-Instabug-CocoaLumberjack iOS.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Checkouts/Instabug-iOS",
+				);
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -326,13 +535,16 @@
 		};
 		FE97879F1E814E1D002D0F38 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8E1B64F481A05F4EBE4BAF33 /* Pods-Framework-Instabug-CocoaLumberjack iOS.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Checkouts/Instabug-iOS",
+				);
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
