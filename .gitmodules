@@ -1,0 +1,6 @@
+[submodule "Carthage/Checkouts/Instabug-iOS"]
+	path = Carthage/Checkouts/Instabug-iOS
+	url = https://github.com/Instabug/Instabug-iOS
+[submodule "Carthage/Checkouts/CocoaLumberjack"]
+	path = Carthage/Checkouts/CocoaLumberjack
+	url = https://github.com/CocoaLumberjack/CocoaLumberjack.git

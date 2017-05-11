@@ -1,0 +1,21 @@
+language: objective-c
+osx_image: xcode8.1
+env:
+  global:
+  - LC_CTYPE=en_US.UTF-8
+  - LANG=en_US.UTF-8
+  - WORKSPACE=Instabug-CocoaLumberjack.xcworkspace
+  - IOS_FRAMEWORK_SCHEME="Instabug-CocoaLumberjack iOS"
+  matrix:
+    - DESTINATION="OS=10.0,name=iPhone 6s Plus"     SCHEME="$IOS_FRAMEWORK_SCHEME"
+    - DESTINATION="OS=9.0,name=iPad 2"             SCHEME="$IOS_FRAMEWORK_SCHEME"
+script:
+  - set -o pipefail
+  - git submodule update --init
+  - xcodebuild -version
+
+  # Build Framework in Debug
+  - travis_retry xcodebuild -workspace "$WORKSPACE" -scheme "$SCHEME" -destination "$DESTINATION" -configuration Debug ONLY_ACTIVE_ARCH=NO build;
+
+  # Build Framework in Release
+  - travis_retry xcodebuild -workspace "$WORKSPACE" -scheme "$SCHEME" -destination "$DESTINATION" -configuration Release ONLY_ACTIVE_ARCH=NO build;

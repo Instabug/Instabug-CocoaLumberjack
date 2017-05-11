@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "Instabug-CocoaLumberjack"
-  s.version      = "1.0.2"
+  s.version      = "1.0.6"
   s.summary      = "A custom CocoaLumberjack logger for Instabug"
   s.homepage     = "http://instabug.com"
   s.license      = {
@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
                 Copyright (C) 2014 Instabug
                 Permission is hereby granted to use this framework as is, modification are not allowed.
                 All rights reserved.
-        
+
         THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
         IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
         FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
