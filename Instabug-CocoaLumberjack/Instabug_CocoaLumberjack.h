@@ -16,4 +16,4 @@ FOUNDATION_EXPORT const unsigned char Instabug_CocoaLumberjackVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <Instabug_CocoaLumberjack/PublicHeader.h>
 
-
+#import <Instabug_CocoaLumberjack/DDInstabugLogger.h>
