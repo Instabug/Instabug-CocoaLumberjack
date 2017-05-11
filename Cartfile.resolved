@@ -1,2 +1,2 @@
-binary "https://raw.githubusercontent.com/Instabug/Instabug-iOS/master/Carthage.json" "7.1"
-github "CocoaLumberjack/CocoaLumberjack" "3.1.0"
+binary "https://raw.githubusercontent.com/Instabug/Instabug-iOS/master/Carthage.json" "7.2.6"
+github "CocoaLumberjack/CocoaLumberjack" "3.2.0"
