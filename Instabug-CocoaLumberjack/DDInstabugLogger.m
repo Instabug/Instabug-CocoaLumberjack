@@ -32,22 +32,22 @@
 
     switch (flag) {
         case DDLogFlagVerbose:
-            [Instabug logVerbose:logMsg];
+            [IBGLog logVerbose:logMsg];
             break;
         case DDLogFlagDebug:
-            [Instabug logDebug:logMsg];
+            [IBGLog logDebug:logMsg];
             break;
         case DDLogFlagInfo:
-            [Instabug logInfo:logMsg];
+            [IBGLog logInfo:logMsg];
             break;
         case DDLogFlagWarning:
-            [Instabug logWarn:logMsg];
+            [IBGLog logWarn:logMsg];
             break;
         case DDLogFlagError:
-            [Instabug logError:logMsg];
+            [IBGLog logError:logMsg];
             break;
         default:
-            [Instabug IBGLog:logMsg];
+            [IBGLog log:logMsg];
             break;
     }
 }

@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "Instabug-CocoaLumberjack"
-  s.version      = "1.0.2"
+  s.version      = "2.0"
   s.summary      = "A custom CocoaLumberjack logger for Instabug"
   s.homepage     = "http://instabug.com"
   s.license      = {
@@ -20,9 +20,9 @@ Pod::Spec.new do |s|
       LICENSE
     }
   s.author        = { "Instabug" => "contactus@instabug.com" }
-  s.platform      = :ios, "8.0"
+  s.platform      = :ios, "9.0"
   s.source        = { :git => "https://github.com/Instabug/Instabug-CocoaLumberjack.git", :tag => "#{s.version}" }
   s.source_files  = "Instabug-CocoaLumberjack"
-  s.dependency "Instabug", ">= 6.2"
+  s.dependency "Instabug", ">= 8.1"
   s.dependency "CocoaLumberjack"
 end
